@@ -13,7 +13,6 @@ dependencies:
   - statsmodels==0.14.5
   - pmdarima==2.0.4
   - matplotlib==3.10.6
-  - pyspark==3.5.4
   - pip
   - pip:
     - pm4py==2.7.17
