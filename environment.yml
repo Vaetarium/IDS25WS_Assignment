@@ -1,0 +1,32 @@
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - python==3.12
+  - pandas==2.3.1
+  - jupyter
+  - ipykernel
+  - nbformat
+  - numpy>=1.26
+  - scipy==1.13.1
+  - scikit-learn==1.7.2
+  - statsmodels==0.14.5
+  - pmdarima==2.0.4
+  - matplotlib==3.10.6
+  - pyspark==3.5.4
+  - pip
+  - pip:
+    - pm4py==2.7.17
+    - rustxes==0.2.10
+    - networkx==3.5
+    - seaborn==0.13.2
+    - p_decision_tree==0.0.3
+    - mrjob==0.7.4
+    - kaleido==1.1.0
+    - nltk==3.9.1
+    - mlxtend==0.23.4
+    - umap-learn==0.5.8
+    - sktime==0.38.5
+    - gensim==4.3.3
+    - plotly==6.3.0
+    - kaleido
